@@ -1,0 +1,32 @@
+{
+  "name": "stock-market-ai-assistant-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Stock Market AI Assistant with real-time analysis capabilities",
+  "main": "dist/mcpServer.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/mcpServer.js",
+    "dev": "tsx src/mcpServer.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "stock-market",
+    "indian-stocks",
+    "model-context-protocol",
+    "vscode"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
