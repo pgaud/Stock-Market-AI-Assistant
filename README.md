@@ -197,18 +197,6 @@ Stock market AI assistant/
 
 ---
 
-## 🎉 **Ready to Get Started?**
-
-### **🚀 Why Our MCP Server?**
-
-- **🎯 Professional Tools** for comprehensive analysis
-- **📊 Real-time Data** from Indian stock exchanges
-- **🔒 Secure Setup** with proper API key management
-- **⚡ Easy Integration** with popular AI platforms
-- **📚 Documentation** with examples and best practices
-
----
-
 ## 📄 License
 
 MIT License - see LICENSE file for details.
