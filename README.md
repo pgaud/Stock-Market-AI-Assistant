@@ -39,10 +39,9 @@ Transform complex financial data into natural language insights. Ask questions l
   
 **🧠 Dedicated LLM with Live Market Intelligence**
 - Real-time stock data integration for informed AI decisions
-- Context-aware prompts with live market conditions
-- Enhanced decision-making through continuous data feeds
-- AI responses backed by current market reality
-- 
+- Context-aware prompts with live market conditions along with the historical reports
+
+  
 ### **🎯 Powerful Analysis Tools**
 
 **🔥 Core Stock Analysis**
