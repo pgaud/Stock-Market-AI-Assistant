@@ -31,7 +31,6 @@
 - AI responses backed by current market reality
 
 **🚀 Production-Ready**
-- Built with TypeScript for reliability
 - Comprehensive error handling
 - RESTful API integration
 
@@ -86,11 +85,6 @@ Transform complex financial data into natural language insights. Ask questions l
 - **🔬 get_advanced_stock_analysis** - Comprehensive technical and fundamental analysis
 - **📈 get_historical_analysis** - Price trends and historical performance
 - **📋 get_supported_stocks** - Complete list of available stocks
-
-### **🔧 Developer-Friendly**
-- **TypeScript** for type safety and better development experience
-- **Modular Architecture** for easy extension and maintenance
-- **Comprehensive Error Handling** for robust operation
 
 ---
 
