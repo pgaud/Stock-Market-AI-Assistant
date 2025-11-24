@@ -95,7 +95,7 @@ npm install
 7. **Save** it securely - you'll paste this in the `.env` file
 
 **🔥 API Key Features:**
-- ✅ **Free Tier**: 1,000 requests/month
+- ✅ **Free Tier**: 500 requests/month
 - ✅ **Real-time Data**: Live stock prices & analysis  
 - ✅ **310+ Stocks**: NSE & BSE coverage
 - ✅ **No Expiration**: Your key stays active
