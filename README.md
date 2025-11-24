@@ -19,24 +19,55 @@
 | 📈 **Real-time Data** | Live stock prices, volume, and market data |
 | 🔍 **Technical Analysis** | Moving averages, RSI, support/resistance levels |
 | 💰 **Fundamentals** | P/E ratios, financial statements, growth metrics |
+| 📊 **Historical Data** | Balance sheet yearly and quarterly reports |
 | 🏆 **Market Leaders** | Top gainers, losers, sector performance |
 
-### 🎯 **Why Choose Our MCP Server?**
+---
 
-**🚀 Production-Ready**
-- Built with TypeScript for reliability
-- Comprehensive error handling
-- RESTful API integration
+## 🚀 **What Makes This Special?**
 
-**🔒 Secure & Private**
-- No data storage on our servers
-- Secure API key management
-- Local deployment for privacy
+### **🎯 Built for AI Conversations**
+Transform complex financial data into natural language insights. Ask questions like:
+- *"Which is the best sector to invest for a short term period"*
+- *"Show me top IT sector stocks"*
+- *"Compare INFY and WIPRO fundamentals and give me the best trading statergy"*
 
-**⚡ Lightning Fast**
-- Optimized queries for speed
-- Cached responses where appropriate
-- Minimal latency design
+### **📊 Real-time Market Data**
+- Live price feeds from NSE/BSE
+- Instant market updates
+- Professional-grade data quality
+  
+**🧠 Dedicated LLM with Live Market Intelligence**
+- Real-time stock data integration for informed AI decisions
+- Context-aware prompts with live market conditions along with the historical reports
+
+  
+### **🎯 Powerful Analysis Tools**
+
+**🔥 Core Stock Analysis**
+- **📊 get_stock_data** - Real-time price, volume, and basic metrics
+- **📈 get_multiple_stocks** - Compare multiple stocks simultaneously
+- **🔍 search_stocks** - Find stocks by name or symbol
+- **🏆 get_top_gainers** - Today's best performing stocks
+- **📉 get_top_losers** - Biggest decliners of the day
+
+**💰 Financial Deep Dive**
+- **💼 get_quarterly_results** - Latest earnings and revenue data
+- **📋 get_yearly_results** - Annual financial performance
+- **🏛️ get_balance_sheet** - Assets, liabilities, and equity analysis
+- **💸 get_cashflow_statement** - Cash flow from operations and investments
+- **📊 get_financial_ratios** - P/E, ROE, debt ratios, and more
+
+**🎯 Market Intelligence**
+- **🏢 get_stocks_by_sector** - Filter stocks by industry sector
+- **💎 get_stocks_by_market_cap** - Large, mid, or small cap analysis
+- **👥 get_shareholding_quarterly** - Institutional holdings data
+- **📅 get_shareholding_yearly** - Annual shareholding patterns
+
+**🚀 Advanced Analytics**
+- **🔬 get_advanced_stock_analysis** - Comprehensive technical and fundamental analysis
+- **📈 get_historical_analysis** - Price trends and historical performance
+- **📋 get_supported_stocks** - Complete list of available stocks
 
 ---
 
@@ -64,7 +95,7 @@ npm install
 7. **Save** it securely - you'll paste this in the `.env` file
 
 **🔥 API Key Features:**
-- ✅ **Free Tier**: 1,000 requests/month
+- ✅ **Free Tier**: 500 requests/month
 - ✅ **Real-time Data**: Live stock prices & analysis  
 - ✅ **310+ Stocks**: NSE & BSE coverage
 - ✅ **No Expiration**: Your key stays active
@@ -146,36 +177,6 @@ echo '{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "ge
 - 🔑 Ensure `.env` has your API key
 - 📝 Use proper JSON formatting
 
----
-
-## 🎯 Powerful Analysis Tools
-
-### 🔥 **Core Stock Analysis**
-- **📊 get_stock_data** - Real-time price, volume, and basic metrics
-- **📈 get_multiple_stocks** - Compare multiple stocks simultaneously
-- **🔍 search_stocks** - Find stocks by name or symbol
-- **🏆 get_top_gainers** - Today's best performing stocks
-- **📉 get_top_losers** - Biggest decliners of the day
-
-### 💰 **Financial Deep Dive**
-- **💼 get_quarterly_results** - Latest earnings and revenue data
-- **📋 get_yearly_results** - Annual financial performance
-- **🏛️ get_balance_sheet** - Assets, liabilities, and equity analysis
-- **💸 get_cashflow_statement** - Cash flow from operations and investments
-- **📊 get_financial_ratios** - P/E, ROE, debt ratios, and more
-
-### 🎯 **Market Intelligence**
-- **🏢 get_stocks_by_sector** - Filter stocks by industry sector
-- **💎 get_stocks_by_market_cap** - Large, mid, or small cap analysis
-- **👥 get_shareholding_quarterly** - Institutional holdings data
-- **📅 get_shareholding_yearly** - Annual shareholding patterns
-
-### 🚀 **Advanced Analytics**
-- **🔬 get_advanced_stock_analysis** - Comprehensive technical and fundamental analysis
-- **📈 get_historical_analysis** - Price trends and historical performance
-- **📋 get_supported_stocks** - Complete list of available stocks
-
----
 
 ## 📁 **Project Structure**
 
@@ -193,58 +194,6 @@ Stock market AI assistant/
     │       └── 📊 stockAnalysisHandlers.ts # All tool implementations
     └── 📁 dist/                    # Built JavaScript files
 ```
-
----
-
-## 🚀 **What Makes This Special?**
-
-### **🎯 Built for AI Conversations**
-Transform complex financial data into natural language insights. Ask questions like:
-- *"What's the technical analysis for TCS?"*
-- *"Compare INFY and WIPRO fundamentals"*
-- *"Show me top IT sector stocks"*
-
-### **📊 Real-time Market Data**
-- Live price feeds from NSE/BSE
-- Instant market updates
-- Professional-grade data quality
-
-### **🔧 Developer-Friendly**
-- **TypeScript** for type safety and better development experience
-- **Modular Architecture** for easy extension and maintenance
-- **Comprehensive Error Handling** for robust operation
-
----
-
-## 🌟 **Use Cases**
-
-### **💼 For Investors**
-- **Portfolio Analysis**: Compare your holdings against market performance
-- **Stock Research**: Deep dive into fundamentals and technical indicators
-- **Market Monitoring**: Track top gainers/losers and sector trends
-
-### **🤖 For AI Developers**
-- **Financial Chatbots**: Build AI assistants with stock market knowledge
-- **Research Tools**: Integrate market data into your applications
-- **Trading Analytics**: Power algorithmic trading with real-time insights
-
-### **📚 For Students & Analysts**
-- **Market Learning**: Understand financial ratios and company metrics
-- **Research Projects**: Access comprehensive Indian stock market data
-- **Investment Education**: Learn by analyzing real market scenarios
-
----
-
-## 🎉 **Ready to Get Started?**
-
-### **🚀 Why Our MCP Server?**
-
-- **🎯 Professional Tools** for comprehensive analysis
-- **📊 Real-time Data** from Indian stock exchanges
-- **🔒 Secure Setup** with proper API key management
-- **⚡ Easy Integration** with popular AI platforms
-- **📚 Documentation** with examples and best practices
-- **💬 Community** support for developers
 
 ---
 
