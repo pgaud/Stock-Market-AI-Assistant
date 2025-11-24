@@ -22,43 +22,27 @@
 | 📊 **Historical Data** | Balance sheet yearly and quarterly reports |
 | 🏆 **Market Leaders** | Top gainers, losers, sector performance |
 
-### 🎯 **Why Choose Our MCP Server?**
-
-**🧠 Dedicated LLM with Live Market Intelligence**
-- Real-time stock data integration for informed AI decisions
-- Context-aware prompts with live market conditions
-- Enhanced decision-making through continuous data feeds
-- AI responses backed by current market reality
-
-**🚀 Production-Ready**
-- Comprehensive error handling
-- RESTful API integration
-
-**🔒 Secure & Private**
-- No data storage on our servers
-- Secure API key management
-- Local deployment for privacy
-
-**⚡ Lightning Fast**
-- Optimized queries for speed
-- Cached responses where appropriate
-- Minimal latency design
-
 ---
 
 ## 🚀 **What Makes This Special?**
 
 ### **🎯 Built for AI Conversations**
 Transform complex financial data into natural language insights. Ask questions like:
-- *"What's the technical analysis for TCS?"*
-- *"Compare INFY and WIPRO fundamentals"*
+- *"Which is the best sector to invest for a short term period"*
 - *"Show me top IT sector stocks"*
+- *"Compare INFY and WIPRO fundamentals and give me the best trading statergy"*
 
 ### **📊 Real-time Market Data**
 - Live price feeds from NSE/BSE
 - Instant market updates
 - Professional-grade data quality
-
+  
+**🧠 Dedicated LLM with Live Market Intelligence**
+- Real-time stock data integration for informed AI decisions
+- Context-aware prompts with live market conditions
+- Enhanced decision-making through continuous data feeds
+- AI responses backed by current market reality
+- 
 ### **🎯 Powerful Analysis Tools**
 
 **🔥 Core Stock Analysis**
